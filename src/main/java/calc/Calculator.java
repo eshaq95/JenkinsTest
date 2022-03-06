@@ -1,10 +1,12 @@
 package calc;
 
+import org.testng.annotations.Test;
+
 import java.util.stream.DoubleStream;
 
 public class Calculator {
 
-    private Calculator() {
+    public Calculator() {
 
     }
 
@@ -18,3 +20,4 @@ public class Calculator {
                 .reduce(1, (a, b) -> a * b);
     }
 }
+

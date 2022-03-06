@@ -41,7 +41,7 @@
               <maxIdleTime>30000</maxIdleTime>
             </connector>
           </connectors>
-          <webAppSourceDirectory>${project.build.directory}/${pom.artifactId}-${pom.version}</webAppSourceDirectory>
+          <webAppSourceDirectory>${project.build.directory}/${project.artifactId}-${project.version}</webAppSourceDirectory>
           <contextPath>/</contextPath>
         </configuration>
       </plugin>
@@ -55,6 +55,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
         <configuration>
           <source>8</source>
           <target>8</target>
@@ -92,6 +93,8 @@
         <artifactId>junit-jupiter-engine</artifactId>
         <version>5.2.0-M1</version>
       </dependency>
+
+
 
   </dependencies>
 

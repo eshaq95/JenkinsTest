@@ -104,6 +104,14 @@
     </dependency>
 
 
+
+
+
   </dependencies>
+
+  <properties>
+    <sonar.organization>tst</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
 
 </project>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CalculatorTest" time="0.015" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Isak\Desktop\JenkinsPipelineTesting\target\test-classes;C:\Users\Isak\Desktop\JenkinsPipelineTesting\target\classes;C:\Users\Isak\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.2.0\junit-jupiter-api-5.2.0.jar;C:\Users\Isak\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Isak\.m2\repository\org\opentest4j\opentest4j\1.1.0\opentest4j-1.1.0.jar;C:\Users\Isak\.m2\repository\org\junit\platform\junit-platform-commons\1.2.0\junit-platform-commons-1.2.0.jar;C:\Users\Isak\.m2\repository\org\easytesting\fest-assert-core\2.0M10\fest-assert-core-2.0M10.jar;C:\Users\Isak\.m2\repository\org\easytesting\fest-util\1.2.5\fest-util-1.2.5.jar;C:\Users\Isak\.m2\repository\org\junit\platform\junit-platform-surefire-provider\1.2.0-M1\junit-platform-surefire-provider-1.2.0-M1.jar;C:\Users\Isak\.m2\repository\org\junit\platform\junit-platform-launcher\1.2.0-M1\junit-platform-launcher-1.2.0-M1.jar;C:\Users\Isak\.m2\repository\org\apache\maven\surefire\surefire-api\2.21.0\surefire-api-2.21.0.jar;C:\Users\Isak\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.21.0\surefire-logger-api-2.21.0.jar;C:\Users\Isak\.m2\repository\org\apache\maven\surefire\common-java5\2.21.0\common-java5-2.21.0.jar;C:\Users\Isak\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.2.0-M1\junit-jupiter-engine-5.2.0-M1.jar;C:\Users\Isak\.m2\repository\org\junit\platform\junit-platform-engine\1.2.0-M1\junit-platform-engine-1.2.0-M1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\jdk-11.0.13\bin"/>
+    <property name="sun.java.command" value="C:\Users\Isak\AppData\Local\Temp\surefire7353475973308181163\surefirebooter8563750238366317260.jar C:\Users\Isak\AppData\Local\Temp\surefire7353475973308181163 2022-03-06T14-08-32_390-jvmRun1 surefire11492671663048719295tmp surefire_07895766464972931605tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Isak\Desktop\JenkinsPipelineTesting\target\test-classes;C:\Users\Isak\Desktop\JenkinsPipelineTesting\target\classes;C:\Users\Isak\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.2.0\junit-jupiter-api-5.2.0.jar;C:\Users\Isak\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Isak\.m2\repository\org\opentest4j\opentest4j\1.1.0\opentest4j-1.1.0.jar;C:\Users\Isak\.m2\repository\org\junit\platform\junit-platform-commons\1.2.0\junit-platform-commons-1.2.0.jar;C:\Users\Isak\.m2\repository\org\easytesting\fest-assert-core\2.0M10\fest-assert-core-2.0M10.jar;C:\Users\Isak\.m2\repository\org\easytesting\fest-util\1.2.5\fest-util-1.2.5.jar;C:\Users\Isak\.m2\repository\org\junit\platform\junit-platform-surefire-provider\1.2.0-M1\junit-platform-surefire-provider-1.2.0-M1.jar;C:\Users\Isak\.m2\repository\org\junit\platform\junit-platform-launcher\1.2.0-M1\junit-platform-launcher-1.2.0-M1.jar;C:\Users\Isak\.m2\repository\org\apache\maven\surefire\surefire-api\2.21.0\surefire-api-2.21.0.jar;C:\Users\Isak\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.21.0\surefire-logger-api-2.21.0.jar;C:\Users\Isak\.m2\repository\org\apache\maven\surefire\common-java5\2.21.0\common-java5-2.21.0.jar;C:\Users\Isak\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.2.0-M1\junit-jupiter-engine-5.2.0-M1.jar;C:\Users\Isak\.m2\repository\org\junit\platform\junit-platform-engine\1.2.0-M1\junit-platform-engine-1.2.0-M1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Isak"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\jdk-11.0.13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Isak\Desktop\JenkinsPipelineTesting"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Isak\AppData\Local\Temp\surefire7353475973308181163\surefirebooter8563750238366317260.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
+    <property name="user.name" value="Isak"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Isak\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Isak\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="C:\Users\Isak\Desktop\JenkinsPipelineTesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\jdk-11.0.13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\jdk-11.0.13\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2020b\bin;C:\Users\Isak\Desktop\apache-ant-1.9.16-bin\apache-ant-1.9.16\bin;C:\Gradle\gradle-7.2\bin;C:\Ngrok;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\msys64\mingw64\bin;C:\Ruby27-x64\bin;C:\Users\Isak\AppData\Local\Microsoft\WindowsApps;C:\Users\Isak\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Isak\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\msys64\usr;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.3\bin;;C:\apache-maven-3.8.4\bin;C:\jdk-11.0.13\bin;C:\Ngrok;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="add" classname="CalculatorTest" time="0"/>
+  <testcase name="multiply" classname="CalculatorTest" time="0.015"/>
+</testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CalculatorTest" time="0.409" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CalculatorTest" time="0.428" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\jdk-11.0.13\bin"/>
-    <property name="sun.java.command" value="C:\Users\Isak\AppData\Local\Temp\surefire9981643766079652854\surefirebooter9633457206844683782.jar C:\Users\Isak\AppData\Local\Temp\surefire9981643766079652854 2022-03-06T16-46-03_750-jvmRun1 surefire7217315286662169960tmp surefire_09217820496012467254tmp"/>
+    <property name="sun.java.command" value="C:\Users\Isak\AppData\Local\Temp\surefire16891007814449726401\surefirebooter7596203308417099617.jar C:\Users\Isak\AppData\Local\Temp\surefire16891007814449726401 2022-03-10T16-12-29_290-jvmRun1 surefire3410147643931056236tmp surefire_03576528992493688550tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Isak\Desktop\JenkinsPipelineTesting\target\test-classes;C:\Users\Isak\Desktop\JenkinsPipelineTesting\target\classes;C:\Users\Isak\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.2.0\junit-jupiter-api-5.2.0.jar;C:\Users\Isak\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Isak\.m2\repository\org\opentest4j\opentest4j\1.1.0\opentest4j-1.1.0.jar;C:\Users\Isak\.m2\repository\org\junit\platform\junit-platform-commons\1.2.0\junit-platform-commons-1.2.0.jar;C:\Users\Isak\.m2\repository\org\easytesting\fest-assert-core\2.0M10\fest-assert-core-2.0M10.jar;C:\Users\Isak\.m2\repository\org\easytesting\fest-util\1.2.5\fest-util-1.2.5.jar;C:\Users\Isak\.m2\repository\org\junit\platform\junit-platform-surefire-provider\1.2.0-M1\junit-platform-surefire-provider-1.2.0-M1.jar;C:\Users\Isak\.m2\repository\org\junit\platform\junit-platform-launcher\1.2.0-M1\junit-platform-launcher-1.2.0-M1.jar;C:\Users\Isak\.m2\repository\org\apache\maven\surefire\surefire-api\2.21.0\surefire-api-2.21.0.jar;C:\Users\Isak\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.21.0\surefire-logger-api-2.21.0.jar;C:\Users\Isak\.m2\repository\org\apache\maven\surefire\common-java5\2.21.0\common-java5-2.21.0.jar;C:\Users\Isak\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.2.0-M1\junit-jupiter-engine-5.2.0-M1.jar;C:\Users\Isak\.m2\repository\org\junit\platform\junit-platform-engine\1.2.0-M1\junit-platform-engine-1.2.0-M1.jar;C:\Users\Isak\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Isak\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Isak\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Isak\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Isak\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Isak\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\Isak\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Isak\AppData\Local\Temp\surefire9981643766079652854\surefirebooter9633457206844683782.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Isak\AppData\Local\Temp\surefire16891007814449726401\surefirebooter7596203308417099617.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
@@ -60,6 +60,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="add" classname="CalculatorTest" time="0"/>
+  <testcase name="add" classname="CalculatorTest" time="0.016"/>
   <testcase name="multiply" classname="CalculatorTest" time="0"/>
 </testsuite>

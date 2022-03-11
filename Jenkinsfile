@@ -15,6 +15,22 @@ pipeline {
                     junit 'target/surefire-reports/*.xml' 
                 }
             }
+           stage('Deliver for development') {
+            when {
+                branch 'development' 
+            }
+            steps {
+               echo "Delivering for development from development branch"
+            }
+        }
+        stage('Deploy for production') {
+            when {
+                branch 'master'  
+            }
+            steps {
+                echo "Deploying working software from master branch code"
+            }
+          }
         }
     }
 }

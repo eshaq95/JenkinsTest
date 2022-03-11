@@ -14,7 +14,7 @@ class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Multiply 2 numbers")
+    @DisplayName("Multiply  numbers")
     void multiply() {
         assertAll(() -> assertEquals(4, Calculator.multiply(2, 2)),
                 () -> assertEquals(-4, Calculator.multiply(2, -2)),

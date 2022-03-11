@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-      - 'development'    # The other branches to be analyzed
+      - master/development    # The other branches to be analyzed
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:

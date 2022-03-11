@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/JenkinsTest.iml" filepath="$PROJECT_DIR$/.idea/JenkinsTest.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/JenkinsPipelineTesting.iml" filepath="$PROJECT_DIR$/JenkinsPipelineTesting.iml" />
+>>>>>>> c09cc1daedfad74ab6e1474c5a948505dcde39d8
     </modules>
   </component>
 </project>

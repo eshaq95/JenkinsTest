@@ -21,7 +21,7 @@ pipeline {
                 branch 'development' 
             }
             steps {
-               echo "Delivering for development from development branch"
+               echo 'Delivering for development from development branch'
             }
         }
         stage('Deploy for production') {
@@ -29,7 +29,7 @@ pipeline {
                 branch 'master'  
             }
             steps {
-                echo "Deploying working software from master branch code"
+                echo 'Deploying working software from master branch code'
             }
           }
         }

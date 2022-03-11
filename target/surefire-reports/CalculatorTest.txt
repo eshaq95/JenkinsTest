@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: CalculatorTest
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.441 s - in CalculatorTest
-=======
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.456 s - in CalculatorTest
->>>>>>> 9bb46c9a5d9cde7e0fcdb013a8d24bb5a29d3c9f
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.41 s - in CalculatorTest

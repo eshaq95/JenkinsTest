@@ -15,6 +15,7 @@ pipeline {
                     junit 'target/surefire-reports/*.xml' 
                 }
             }
+        }
            stage('Deliver for development') {
             when {
                 branch 'development' 
@@ -33,4 +34,4 @@ pipeline {
           }
         }
     }
-}
+

@@ -8,7 +8,7 @@ class CalculatorTest {
 
 
     @Test
-    @DisplayName("Add two numbersss")
+    @DisplayName("Add two numbers")
     void add() {
         assertEquals(4, Calculator.add(2, 2));
     }
